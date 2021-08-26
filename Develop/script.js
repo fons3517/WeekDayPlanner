@@ -5,6 +5,9 @@ $('.btn-save').on('click', function(event) {
     console.log(currentTimeEl,userPlan);
     localStorage.setItem(currentTimeEl,userPlan);
 });
+for(var i = 9; i <= 17; i++) {
+    $(`#userEntry-${i}`).val(localStorage.getItem(i));
+}
 // I am using a daily planner to create a schedule
 
 // When I open the planner, the current day is displayed at the top of the calendar
