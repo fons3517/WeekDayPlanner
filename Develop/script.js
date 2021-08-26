@@ -1,4 +1,9 @@
-$('')
+$('.btn-save').on('click', function(event) {
+    event.preventDefault();
+    var currentTimeEl = $(this).attr('id').split('-')[1]
+    var userPlan = $(`#userEntry-${currentTimeEl}`).val() // "#userEntry"+currentTimeEl
+    console.log(currentTimeEl,userPlan);
+});
 // I am using a daily planner to create a schedule
 
 // When I open the planner, the current day is displayed at the top of the calendar
