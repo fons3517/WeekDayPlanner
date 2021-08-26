@@ -5,8 +5,22 @@ $('.btn-save').on('click', function(event) {
     console.log(currentTimeEl,userPlan);
     localStorage.setItem(currentTimeEl,userPlan);
 });
+
+$('#currentDay').text(moment());
+var currentHour = moment().hour()
+console.log(currentHour)
+
 for(var i = 9; i <= 17; i++) {
     $(`#userEntry-${i}`).val(localStorage.getItem(i));
+    if(currentHour > i) {
+        $(`#userEntry-${i}`).addClass('past')
+    }
+    else if(currentHour == i) {
+        $(`#userEntry-${i}`).addClass('present')
+    }
+    else{
+        $(`#userEntry-${i}`).addClass('future')
+    }
 }
 // I am using a daily planner to create a schedule
 
