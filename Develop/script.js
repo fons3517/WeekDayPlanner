@@ -3,6 +3,7 @@ $('.btn-save').on('click', function(event) {
     var currentTimeEl = $(this).attr('id').split('-')[1]
     var userPlan = $(`#userEntry-${currentTimeEl}`).val() // "#userEntry"+currentTimeEl
     console.log(currentTimeEl,userPlan);
+    localStorage.setItem(currentTimeEl,userPlan);
 });
 // I am using a daily planner to create a schedule
 
