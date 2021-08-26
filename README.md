@@ -10,4 +10,4 @@
 
 * [WeekDayPlanner](https://github.com/fons3517/WeekDayPlanner)
 
-* [Screenshot of Week Day Planner](./weekDayPlannerscreenshot.JPG)
+* ![Screenshot of Week Day Planner](./weekDayPlannerscreenshot.JPG)
