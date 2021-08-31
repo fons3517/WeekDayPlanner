@@ -1,4 +1,4 @@
-# Work Day Planner
+# Work Day Scheduler Assignment
 
 * Due date: 08/28/2021
 
