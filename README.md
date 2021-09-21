@@ -8,6 +8,6 @@
 
 ### Link to deployed site; screenshot of up-to-date site included.
 
-* [WeekDayPlanner](https://fons3517.github.io/WeekDayPlanner/)
-
-* ![Screenshot of Week Day Planner](./weekDayPlannerscreenshot.JPG)
+[WeekDayPlanner](https://fons3517.github.io/WeekDayPlanner/)
+![Screenshot of Week Day Planner](./weekDayPlannerscreenshot.JPG)
+![Screenshot 2](WeekdayPlanner2.JPG)
